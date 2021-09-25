@@ -1,0 +1,7 @@
+git init  : Khởi tạo một kho chứa Git mới 
+git clone : Để copy một Git Repo (kho chứa dự án Git) về máy đang local
+git add . : Sử dụng để đánh chỉ mục (index) các nội dung mới, mới cập nhật trong thư mục làm việc
+git status : Hiện thị thông tin khác nhau (do thêm mới, xóa đi, sửa đổi các file) giữa các file
+git commit -m : Thực hiện lưu vào CSDL Git toàn bộ nội dung chứa trong index (vùng staging) và kèm theo nó là một đoạn text thông tin (log) mô tả sự thay đổi của của commit này so với commit trước
+git push origin master : Đẩy lên server Local Repository
+git remote add origin : tạo một remote mới để đấy lên Push 
